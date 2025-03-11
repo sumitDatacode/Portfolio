@@ -156,7 +156,7 @@ body{
     font-weight: 300;
     font-size: 8vw;
     margin-top: 12vw;
-    margin-left: 6vw;
+    margin-left: 10vw;
 }
 
 .page1 h2{
@@ -169,6 +169,8 @@ body{
 
 .page1 video{
     width: 60%;
-    margin-left: 20%;
     margin-top: 10vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
