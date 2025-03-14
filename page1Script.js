@@ -36,10 +36,10 @@ init()
 
 
 var crsr = document.querySelector(".cursor")
-var main = querySelector(".main")
-main.addEventListener("mousemove",function()
+var main = document.querySelector(".main")
+main.addEventListener("mousemove",function(dets)
 {
-  
+  console.log(dets.y)
 })
 
 
