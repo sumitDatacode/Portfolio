@@ -23,6 +23,7 @@ body{
 }
 
 .cursor{
+    visibility: hidden;
     height: 20px;
     display: flex;
     justify-content: center;

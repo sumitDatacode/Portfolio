@@ -55,6 +55,7 @@ var p = document.querySelector(".cursor p")
 mainId.addEventListener("mouseenter",function()
 {
      crsr.style.width = "80"+'px'
+     crsr.style.visibility="visible"
      crsr.style.height = "80"+'px'
      p.style.display = "block"
 })
