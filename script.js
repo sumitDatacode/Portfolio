@@ -58,3 +58,11 @@ mainId.addEventListener("mouseenter",function()
      crsr.style.height = "80"+'px'
      p.style.display = "block"
 })
+
+
+mainId.addEventListener("mouseleave",function()
+{
+     crsr.style.width = "20"+'px'
+     crsr.style.height = "20"+'px'
+     p.style.display = "none"
+})
