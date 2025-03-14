@@ -39,7 +39,8 @@ var crsr = document.querySelector(".cursor")
 var main = document.querySelector(".main")
 main.addEventListener("mousemove",function(dets)
 {
-  console.log(dets.y)
+  crsr.style.left = dets.x+'px'
+  crsr.style.top = dets.y+'px'
 })
 
 
