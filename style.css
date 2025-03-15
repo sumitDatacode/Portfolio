@@ -33,13 +33,13 @@ body{
     width: 20px;
     border-radius: 50%;
     position: fixed;
-    /* transform: translate(-50%, -50%); */
-  
     background-color: #EDBFFF;
     z-index: 8;
     mix-blend-mode: difference;
-    transition: left linear .2s top linear .2s;
-  
+    transition: all linear 0.2s; 
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
 }
 
 .cursor p{
