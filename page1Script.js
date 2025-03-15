@@ -95,5 +95,9 @@ boxes.forEach((box)=>{
      })
    box.addEventListener("mouseleave", function(){
     box.style.backgroundColor="transparent"
+    crsr.style.width = "20px"
+    crsr.style.height = "20px"
+    crsr.style.borderRadius = "50%"
+    crsr.style.backgroundImage = `none`
  })
 })
