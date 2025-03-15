@@ -76,3 +76,10 @@ tl.to(".page1 video",{
    width:"90%"
    
 },"anim")
+
+
+
+
+// page 2 js
+var boxes = document.querySelectorAll(".box")
+console.log(boxes)
