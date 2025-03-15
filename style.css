@@ -258,17 +258,19 @@ body{
 .page3 h2{
      font-size: 4vw;
      font-weight: 400;
-     
+   
 
 }
 .cards {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
+   
 }
 
 .card{
     width: 300px;
+
     height: 400px;
     background-color: green;
 }
