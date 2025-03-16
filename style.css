@@ -265,12 +265,13 @@ body{
     display: flex;
     gap: 40px;
     align-items: center;
-   
+    overflow-x: auto;
+ 
 }
 
 .card{
     width: 300px;
-
+    flex-shrink: 0;
     height: 400px;
     background-color: green;
 }
