@@ -82,6 +82,36 @@ tl.to(".page1 video",{
 
 
 
+tl2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:".page3",
+    scroller:".main",
+    start: "top -40%",  // Ensures it starts when `.page3` reaches the top
+    end: "top -900%", // Adjusted to allow smooth pinning
+    scrub: 3,
+    markers: true,  // Check marker positioning
+    pin: true
+  }
+})
+
+
+tl2.to(".page3 h2",{
+  
+}, "sametimeworking")
+
+
+tl2.to(".card",{
+    x:-2400,
+
+},"sametimeworking")
+
+
+
+
+
+
+
+
 // page 2 js
 var boxes = document.querySelectorAll(".box")
 boxes.forEach((box)=>{
