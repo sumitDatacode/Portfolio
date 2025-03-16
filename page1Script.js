@@ -81,16 +81,16 @@ tl.to(".page1 video",{
 
 
 
-
+// page 2 animation js 
 tl2 = gsap.timeline({
   scrollTrigger:{
     trigger:".page3",
     scroller:".main",
-    start: "top -40%",  // Ensures it starts when `.page3` reaches the top
-    end: "top -900%", // Adjusted to allow smooth pinning
-    scrub: 3,
-    markers: true,  // Check marker positioning
-    pin: true
+    start:"top -40%",
+    end:"top -100%",
+    markers:true,
+    pin:true,
+    scrub:3
   }
 })
 
@@ -99,10 +99,10 @@ tl2.to(".page3 h2",{
   
 }, "sametimeworking")
 
-
 tl2.to(".card",{
     x:-2400,
-
+    ease: "power4.out",
+   
 },"sametimeworking")
 
 
@@ -113,6 +113,7 @@ tl2.to(".card",{
 
 
 // page 2 js
+
 var boxes = document.querySelectorAll(".box")
 boxes.forEach((box)=>{
    box.addEventListener("mouseenter", function(){
