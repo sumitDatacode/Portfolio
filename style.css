@@ -405,6 +405,9 @@ body{
 
     }
 
+
+    
+
   
   
 
@@ -425,10 +428,15 @@ body{
 
     }
 
+    .page1 h2{
+        margin-left: 20vw;
+    }
 
-   .page1{
+   .page1, .page2{
             min-height: auto; /* Force reset */
-          
+            padding: 80px 20px;
         }
+
+
     
 }
