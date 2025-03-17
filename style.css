@@ -432,11 +432,30 @@ body{
         margin-left: 20vw;
     }
 
-   .page1, .page2{
+   .page1, .page2, .page3{
             min-height: auto; /* Force reset */
-            padding: 80px 20px;
+            padding: 60px 20px;
+          }
+
+
+        .page2 h2, .page3 h2{
+              font-size: 12vw;
+              padding-left: 20px;
+        }
+        .cards{
+            padding-left: 20px;
+               
+            
         }
 
+
+        .card{
+                width: 80vw; 
+                height: 60vw;  
+                flex-shrink: 0;
+                }
+        
+   
 
     
 }
