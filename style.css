@@ -425,4 +425,10 @@ body{
 
     }
 
+
+   .page1{
+            min-height: auto; /* Force reset */
+          
+        }
+    
 }
